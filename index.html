@@ -3,26 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
     <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
+<style>
+    body{
+        color: white;
+        background-color: rgb(0,0,33);
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 54px;
+        background-color: rgb(0,0,100);
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+
+    }
+    nav ul li{
+        list-style: none;
+    }
+    nav ul li a:hover{
+        color: rgb(176, 40, 176);
+        font-size: 17px;
+    }
+    .firstsection{
+        display: flex;
+        margin: 23px 0;
+        justify-content: space-around;
+
+    }
+    .firstsection div{
+       width: 30%;
+    }
+    .leftsection{
+        font-size: 3rem;
+        margin: 5%;
+
+    }
+    
+    .secondsection{
+        max-width: 70%;
+        margin: auto;
+    }
+    .rightsection{
+        
+    }
+    .rightsection img{
+        width: 94%;
+        margin: 63px -40px;
+    }
+    .purple{
+        color: rgb(226, 130, 226);
+    }
+    hr{
+    border: 0;
+    background: #c37ede;
+    height: 1px;
+    margin: 40px 70px;
+    }
+    .left{
+        font-size: 20px;
+    }
+    .small{
+        font-size: 2.2re;    }
+    .overflowdiv{
+        margin: 10%;
+        width: 70%;
+        height: 700px;
+    }
+    .greet{
+        font-size:2rem;
+        font-weight:500;
+    }
+</style>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="skills.html">Skills</a>
-            <a href="contact.html">Contact</a>
+            <div class="left">
+                Portfolio.
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
-        <h2>Professional Summary</h2>
-        <p>Detail your professional summary here.</p>
+        <section class="firstsection">
+            <div class="leftsection"><div><div class="greet">Hello,</div></div>I'm <span class="purple">Hitesh,</span> 
+                <span class="small"> a Skilled Automation QA Professional.</span></div>
+            <div class="rightsection">
+                <img src="Automation-testing.png" alt="img">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <h1>About me</h1>
+            <div class="overflowdiv"><p>As a seasoned Quality Analyst, I possess a demonstrated history of 
+                enhancing software quality and reliability across diverse projects 
+                over the past three years. Recognized for proactive problem
+                solving, meticulous attention to detail, and a commitment to 
+                excellence. Proficient in a range of testing methodologies and 
+                techniques. </p></div>
+        </section>
     </main>
     <footer>
-        <p>&copy; 2024 Your Name</p>
+        <div class="container">
+            <p>&copy; Thank you</p>
+            <div class="socials">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
     </footer>
     <script src="js/scripts.js"></script>
 </body>

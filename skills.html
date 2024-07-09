@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me</title>
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <style>
     body{
@@ -86,6 +85,10 @@
         font-size:2rem;
         font-weight:500;
     }
+    img{
+        width: 180px;
+        margin: 0%;
+    }
 </style>
 <body>
     <header>
@@ -105,23 +108,66 @@
         </nav>
     </header>
     <main>
-        <h2>Get in Touch</h2>
-        <form id="contact-form" action="https://formsubmit.co/jangidh212@gmail.com" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+        <div id="background"></div>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+<div id="cards">
+  <div class="card">
+    <div class="card-content">
+      <i class="card-icon fa-regular fa-cat-space"></i>
+      <img src="https://asset.brandfetch.io/idIq_kF0rb/idGSuvAIy3.png" alt="">
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-content">
+      <i class="card-icon fa-regular fa-croissant"></i>
+      <img src="https://bellatrix.solutions/content/uploads/selenium_test_.png" alt="">
+    </div>
+  </div>
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <button type="submit">Submit</button>
-        </form>
-        
+  <div class="card">
+    <div class="card-content">
+      <i class="card-icon fa-regular fa-pickleball"></i>
+      <img src="image.png" alt="">
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-content">
+      <i class="card-icon fa-regular fa-poo"></i>
+      <img src="https://img1.wsimg.com/isteam/ip/0e4ddb6b-bf44-436a-b41a-61442ca51a8c/blob-6d42a8f.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/fx-gs" alt="">
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-content">
+      <i class="card-icon fa-regular fa-tree-palm"></i>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-content">
+      <i class="card-icon fa-regular fa-tree-palm"></i>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-content">
+      <i class="card-icon fa-regular fa-tree-palm"></i>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-content">
+      <i class="card-icon fa-regular fa-fish-bones"></i>
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968286.png" alt="">
+    </div>
+  </div>
+</div>
     </main>
     <footer>
-        <p>&copy; 2024 Your Name</p>
+        <div class="container">
+            <p>&copy; Thank You</p>
+            <div class="socials">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
     </footer>
     <script src="js/scripts.js"></script>
 </body>
