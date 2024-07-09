@@ -50,7 +50,7 @@ main .intro {
 }
 
 footer {
-    background-color: #007BFF; /* Blue background */
+    background-color: rgb(0,0,100); /* Blue background */
     color: white;
     text-align: center;
     padding: 10px 0;
